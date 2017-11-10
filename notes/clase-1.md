@@ -2,10 +2,15 @@
 
 ## Notas
 
+* __Nota Importante__: mayoria de problema de instalacion es por cuestion de que el SID no ha sido exportado en la session del usuario debe verificar el .bashrc y/o exportarla manual
 * Storage de la instalacion:
 ..* Avanzado: se utiliza cuando se tiene un arreglo de disco o un meto de almacenamiento diferente a un solo disco
 ..* Basico: Se utiliza cuando se tiene un solo disco y se utilizara el OS stanalone
 * Oracle Linux 6.8: es el OS que estaremos utilizando en la clase
+
+* Enlace por defecto de entreprise manager: https://ora6.fcld.acl:1158/em
+
+* lsnrctl: comando para el manejo de listener
 
 * Informacion para la instalacion:
   * Nombre maquina: ora5.fcld.acl
@@ -69,5 +74,13 @@
 * Oracle RMAN
 
 ## Tarea
-  * traer descrito el uso de cada uno de los usuario en oracle
-  * traer investigacion de los "Arcai" de oracle
+  * traer descrito el uso de cada uno de los usuario en oracle:
+    * sys: es un usuario el cual tiene el los dictionarios de datos de oracle y es utilizado con ese fin.
+      * extra info: usted no deberia utilizarlo de ninguna otra manera.
+    * system: es un usuario el cual tiene mas dictionarios de datos.
+      * extra info: de igual manera no se deberia usar para el
+    * dbsnmp:
+      * extra info:
+    * sysman:
+      * extra info:
+  * traer investigacion de los "Archieved Oracle" de oracle
