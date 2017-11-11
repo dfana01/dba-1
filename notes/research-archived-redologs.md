@@ -17,4 +17,23 @@
   __Que prerequisito se necesitan para utilizarlos?__
   __R.__ *el principal prerequisito es que se necesita activar la base de datos en ARCHIVEDLOGS mode on, el cual viene por defecto desactivado; esto es recomendable para base de datos de produccion no laboratorio porque el consumo de recursos es significativo*
 
-* __Conclusiones__:
+## Investigacion
+
+  __¿Qué son?__
+  __R.__
+
+  __¿Dónde se ubican ?__
+  __R.__
+
+  __¿Cómo se utilizan (ejemplo práctico)?__
+  __R.__
+
+  __¿Por que utilizar?__
+  __R.__
+
+  __¿Cuando se graban?__
+  __R.__
+
+## Fuentes
+What Is the Archived Redo Log? - https://docs.oracle.com/cd/B28359_01/server.111/b28310/archredo001.htm#ADMIN11329
+Managing Archived Redo Logs - https://docs.oracle.com/cd/B19306_01/server.102/b14231/archredo.htm

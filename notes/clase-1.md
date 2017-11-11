@@ -74,13 +74,15 @@
 * Oracle RMAN
 
 ## Tarea
-  * traer descrito el uso de cada uno de los usuario en oracle:
-    * sys: es un usuario el cual tiene el los dictionarios de datos de oracle y es utilizado con ese fin.
-      * extra info: usted no deberia utilizarlo de ninguna otra manera.
-    * system: es un usuario el cual tiene mas dictionarios de datos.
-      * extra info: de igual manera no se deberia usar para el
-    * dbsnmp:
-      * extra info:
-    * sysman:
-      * extra info:
-  * traer investigacion de los "Archieved Oracle" de oracle
+  * Traer descrito el uso de cada uno de los usuario principales de la instalacion en oracle
+    * Usuario
+      * __SYS__: es el dueno de la base de datos que contiene los diccionario de datos.Es un usuario el cual tiene los dictionarios de datos del sistema y se utiliza con fines administrativos
+      * __SYSTEM__: es el administrador de la base de datos desde su creacion tiene permisos de dba. Igual que SYS se utiliza con fines administrativos
+      * __DBSNMP__: Este usuario se utiliza con el fin de manejar componentes de el enterprise manager
+      * __SYSMAN__: Se utiliza para realizar tareas administrativas en el EM. se puede utilzia sys o system para estos fines tambien
+    * Fuentes:
+      * Administering Roles: https://docs.oracle.com/cd/B16351_01/doc/server.102/b14196/users_secure002.htm#CFHBHBAH
+      * Overview of Users and Security: https://docs.oracle.com/cd/B16351_01/doc/server.102/b14196/users_secure001.htm
+      * Administering User Accounts and Security: https://docs.oracle.com/cd/E11882_01/server.112/e10897/users_secure.htm#ADMQS007
+
+  * Traer investigacion de los "Archieved Oracle" de oracle: [research-archived-redologs.md](notes\research-archived-redologs.md)
